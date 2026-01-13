@@ -237,7 +237,7 @@
 .shopping_img1--wrapper {
   max-width: 120px;
   width: 100%;
-  margin: 0 auto 0 3rem;
+  margin: 0 0 3rem;
   position: relative;
   z-index: 1;
 }
@@ -264,8 +264,8 @@
 }
 .shopping_img2--wrapper img {
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: -30px;
+  bottom: 60px;
 }
 .buy_theme-wrapper {
   position: relative;
@@ -542,7 +542,7 @@
   margin-right: -15px;
 }
 .inner_details--wrapper {
-  padding: 3.5rem 1rem 4.5rem;
+  padding: 1.5rem 1rem 4.5rem;
   position: relative;
 }
 .inner_details--wrapper .item_title {
@@ -608,7 +608,7 @@
     padding: 0.5rem 1rem 3.5rem;
   }
   .theme_number--wrapper .theme_number {
-    font-size: 130px;
+    font-size: 54px;
   }
   .theme_number--wrapper .theme_demo {
     font-size: 30px;
@@ -707,17 +707,17 @@
   }
   .inner_details--wrapper .item_one {
     top: -1rem;
-    right: -12rem;
+    right: 3rem;
   }
   .theme_demo--wrapper {
-    margin-left: 6.25rem;
+    margin-left: 3.25rem;
   }
   .theme_demo--wrapper1 {
     margin-right: 6.25rem !important;
     margin-left: 0 !important;
   }
   .theme_number--wrapper::after {
-    right: -15.1rem;
+    right: -11.6rem;
   }
   .theme_number--wrapper1::after {
     left: -15.1rem !important;
@@ -1186,7 +1186,7 @@
     padding: 1rem 0rem;
   }
   .theme_number--wrapper .theme_number {
-    font-size: 70px;
+    font-size: 45px;
   }
 }
 /* Footer */
@@ -1570,11 +1570,13 @@
 }
 
 .why_choose_us--title {
-    font-family: var(--bebas);
+    font-family: var(--roboto);
     font-size: 5rem;
     color: var(--white);
     margin: 0;
     line-height: 1;
+    text-transform: capitalize !important;
+    font-weight: 900;
 }
 
 .why-empty-box {
@@ -1670,7 +1672,7 @@
     line-height: 1;
     color: var(--white);
     margin: 0;
-    text-transform: uppercase;
+    text-transform: lowercase !important;
     letter-spacing: 0.04em;
 }
 
@@ -1697,6 +1699,13 @@
     }
     .why_choose_us--title {
         font-size: 80px;
+    }
+}
+
+@media (max-width: 767px) {
+    .why_choose_us--right.why-empty-box {
+        min-height: 100px !important;
+        height: 100px !important;
     }
 }
 
