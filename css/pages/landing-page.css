@@ -48,7 +48,7 @@
 .basket_veg--wrapper {
   position: absolute;
   width: 100%;
-  bottom: -5.8125rem;
+  bottom: -1.8125rem;
   left: 0;
 }
 .basket_veg--wrapper img {
@@ -211,7 +211,7 @@
   position: absolute;
   width: 100%;
   right: -6rem;
-  bottom: -22rem;
+  bottom: -20rem;
   z-index: 1;
 }
 .landing_right_col {
